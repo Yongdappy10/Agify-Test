@@ -1,0 +1,23 @@
+{
+  "name": "dada-tobi-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "test": "cucumber-js --require-module ts-node/register --require ./support/**/*.ts --require ./step-definitions/**/*.ts"
+},
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "assert": "^2.1.0",
+    "axios": "^1.12.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

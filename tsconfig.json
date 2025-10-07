@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020",                   
+    "module": "commonjs",                 
+    "lib": ["ES2020"],                   
+    "types": ["node"],                   
+    "esModuleInterop": true,              
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,                       
+    "skipLibCheck": true,                 
+
+    /* Output and Folder Settings */
+    "rootDir": ".",                       
+    "outDir": "./dist",                   
+
+    /* Support for Cucumber with ts-node */
+    "moduleResolution": "node",           
+    "resolveJsonModule": true             
+  },
+  "include": [
+    "step-definitions/**/*.ts",
+    "features/**/*.ts",
+    "support/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
